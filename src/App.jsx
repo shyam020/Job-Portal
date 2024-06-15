@@ -1,14 +1,18 @@
-
-import './App.css'
+import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Searchbar from './components/Searchbar';
 
 function App() {
   
 
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div>
+        <Navbar />
+        <Header />
+        <Searchbar />
+   </div>
     </>
   )
 }
